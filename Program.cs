@@ -22,7 +22,7 @@ builder.Services.AddCors(options => options.AddPolicy("AllowWebApp",
                 builder => builder.AllowAnyOrigin()));
 
 var port = Environment.GetEnvironmentVariable("PORT");
-builder.WebHost.UseUrls("http://*:" + port);
+Console.WriteLine(port);
 
 var app = builder.Build();
 
