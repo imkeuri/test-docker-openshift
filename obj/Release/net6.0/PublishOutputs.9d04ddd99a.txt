@@ -1,0 +1,11 @@
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\test.exe
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\appsettings.Development.json
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\appsettings.json
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\test.dll
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\test.deps.json
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\test.runtimeconfig.json
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\test.pdb
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\Microsoft.OpenApi.dll
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Evopoint\Desktop\test\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

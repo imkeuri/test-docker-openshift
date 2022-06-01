@@ -1,0 +1,7 @@
+C:\Users\Evopoint\Desktop\test\obj\Debug\net5.0\test.csproj.AssemblyReference.cache
+C:\Users\Evopoint\Desktop\test\obj\Debug\net5.0\test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evopoint\Desktop\test\obj\Debug\net5.0\test.AssemblyInfoInputs.cache
+C:\Users\Evopoint\Desktop\test\obj\Debug\net5.0\test.AssemblyInfo.cs
+C:\Users\Evopoint\Desktop\test\obj\Debug\net5.0\test.csproj.CoreCompileInputs.cache
+C:\Users\Evopoint\Desktop\test\obj\Debug\net5.0\test.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Evopoint\Desktop\test\obj\Debug\net5.0\test.MvcApplicationPartsAssemblyInfo.cache
