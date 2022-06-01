@@ -21,9 +21,6 @@ builder.Services.AddDbContext<DbContextPropiedad>
 builder.Services.AddCors(options => options.AddPolicy("AllowWebApp",
                 builder => builder.AllowAnyOrigin()));
 
-var port = Environment.GetEnvironmentVariable("PORT");
-Console.WriteLine(port);
-
 var app = builder.Build();
 
 
