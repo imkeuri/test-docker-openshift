@@ -1,5 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine as build
 EXPOSE 1024
+
+ENV ASPNETCORE_URLS = http://+:1024
+
 WORKDIR /app
 COPY . .
 RUN dotnet restore
