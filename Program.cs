@@ -19,7 +19,7 @@ builder.Services.AddDbContext<DbContextPropiedad>
     (op => op.UseSqlServer(builder.Configuration.GetConnectionString("Connection")));
 
 builder.Services.AddCors(options => options.AddPolicy("AllowWebApp",
-                builder => builder.WithOrigins("http://localhost:5000")));
+                builder => builder.AllowAnyOrigin()));
 
 var app = builder.Build();
 
