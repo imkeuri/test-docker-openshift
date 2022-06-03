@@ -11,9 +11,14 @@ namespace test.Services
             this.repository = repository;
         }
 
-        public   List<Propetario> GetAll()
+        public async Task<List<Propetario>> GetAll()
         {
-            return  repository.GetAll();
+            return await repository.GetAll();
+        }
+
+        public async Task<Propetario> GetPropetarioById(int Id)
+        {
+            return await repository.GetPropetarioById(Id);
         }
     }
 }

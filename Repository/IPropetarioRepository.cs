@@ -2,6 +2,7 @@
 {
     public interface IPropetarioRepository
     {
-        List<Propetario> GetAll();
+        Task<List<Propetario>> GetAll();
+        Task<Propetario> GetPropetarioById(int id);
     }
 }

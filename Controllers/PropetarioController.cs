@@ -6,7 +6,7 @@ using test.Services;
 namespace test.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class PropetarioController : ControllerBase
     {
         private readonly IPropetarioService service;
@@ -16,9 +16,16 @@ namespace test.Controllers
             this.service = service;
         }
         [HttpGet]
-        public List<Propetario> GetAllPropetarios()
+        public async Task<ActionResult<List<Propetario>>> GetAllPropetarios()
         {
-           return service.GetAll();
+            var result = await service.GetAll();
+            return Ok(result);
+        }
+        [HttpGet("{Id}")]
+        public async Task<ActionResult> GetPropetarioById(int Id)
+        {
+            var result = await service.GetPropetarioById(Id);
+            return Ok(result);
         }
     }
 }
